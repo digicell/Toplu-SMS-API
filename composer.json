@@ -1,0 +1,23 @@
+{
+  "name": "digicell/toplu-sms-api",
+  "description": "Digicell SMS Api ile sms gönderebilirsiniz.",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Sergen Kabakçı",
+      "email": "sergen@digicell.com.tr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  }
+}
